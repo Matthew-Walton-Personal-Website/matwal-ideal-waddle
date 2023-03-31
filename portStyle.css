@@ -1,0 +1,130 @@
+body {
+ background-color: black;
+ color: white;
+}
+li {
+  list-style: none;
+  list-style-position: inside;
+}
+.navBar li a {
+  color: black;
+  text-decoration: none;
+  font-family: 'Bangers', cursive;
+  margin-left: 20px;
+}
+.navBar li i {
+    color:black;
+    margin-left: 15px;
+}
+.navBar li {
+    background-color: aliceblue;
+    width: 175px;
+    padding: 5px 0px 5px 0px;
+    margin: 10px 0px 10px 0px;
+    border-radius: 5px;
+    border: 4px solid rgb(22, 15, 77);
+}
+
+.navBar li:hover {
+    background:linear-gradient(45deg, rgb(46, 39, 97)25%, rgb(17, 12, 53)50%, rgb(35, 24, 121)100%);
+}
+
+h1 {
+  font-family: 'Bangers', cursive; 
+  font-size: 100px;
+  letter-spacing: 6px;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: nowrap;
+    background: linear-gradient(45deg, rgb(46, 39, 97)25%, rgb(17, 12, 53)50%, rgb(35, 24, 121)100%);
+    border-bottom: 4px solid white
+    
+}
+.pic {
+  text-align: center;
+  margin-left: 50px;
+
+}
+.navBar {
+    margin-right: 300px;
+  
+}
+.head {
+    margin-right: 300px;
+}
+
+
+ .pic img {
+    border: 3px solid rgb(22, 15, 77);
+    margin-top: 15px;
+
+ }
+
+
+.container_2 {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: nowrap;
+    background: linear-gradient(45deg, rgb(46, 39, 97)25%, rgb(17, 12, 53)50%, rgb(35, 24, 121)100%);
+    padding: 15px 10px 15px 10px;
+   
+
+}
+
+.para p{
+ font-family: 'Bebas Neue', cursive;
+ margin: 0px 0px 0px 0px;
+ padding: 20px 25px 20px 25px;
+}
+h2 {
+ font-family: 'Gajraj One', cursive;
+ background: linear-gradient(45deg, rgb(46, 39, 97)25%, rgb(17, 12, 53)50%, rgb(35, 24, 121)100%);
+ width: 400px;
+ padding: 10px 15px 10px 15px;
+ margin-left: 20px;
+}
+
+figcaption {
+ font-family: 'Bebas Neue', cursive;
+ font-size: 35px;
+ text-align: center;
+}
+
+ .myProject li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Luckiest Guy', cursive;
+ 
+
+}
+
+    
+
+
+
+p {
+font-family: 'Bebas Neue', cursive;  
+margin-left: 35px;
+}
+
+/* Images to the page*/
+.myCode img {
+    width: 400px;
+    height: 250px;
+}
+
+.pic img {
+    width: 200px;
+    height: 200px;
+}
+
+.mySchools img {
+    width: 300px;
+    height: 300px
+}
