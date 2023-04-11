@@ -6,7 +6,9 @@
 header{
   background: linear-gradient(45deg, rgb(55, 139, 55)25%, rgb(14, 97, 14)50%, rgba(92, 146, 85, 0.904)100%);
 }
-
+script {
+    font-family: 'Luckiest Guy', cursive;
+}
 
 .container {
     display: flex;

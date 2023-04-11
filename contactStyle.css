@@ -1,0 +1,107 @@
+h1 {
+    background: linear-gradient(45deg, rgb(46, 39, 97)25%, rgb(17, 12, 53)50%, rgb(35, 24, 121)100%);
+    color: white;
+    text-align: center;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 45px;
+    padding: 30px 15px 30px 15px;
+    margin: 0px 0px 20px 0px;
+    
+}
+
+body {
+background-color: black;
+color:white;
+font-family: 'Luckiest Guy', cursive;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.information {
+  width: 300px;
+  height: 400px;
+}
+h2 {
+ font-size: 24px;
+}
+p {
+ font-size: 20px;
+}
+
+
+li {
+ list-style: none;
+ list-style-position: inside;
+ 
+}
+
+
+img {
+    width: 200px;
+    height: 200px;
+    
+}
+
+a{
+color:white;
+text-decoration: none;
+}
+.navBar li {
+    background-color: aliceblue;
+    text-shadow: 2px 2px 2px rgb(121, 119, 119);
+    border-radius: 5px;
+    margin: 15px 0px 15px 0px;
+    color: black; 
+    width: 200px;
+    text-align: center;
+    border: 3px solid rgb(41, 20, 138);
+  
+    }
+.navBar a {
+    color:black;
+}
+.navBar li a {
+    margin-left: 15px;
+  }
+ 
+  .navBar li i {
+    margin-left: 10px;
+  }
+
+
+
+
+.information li i {
+    margin: 0px 10px 0px 10px;
+}
+ 
+.information li {
+    display: inline-block;
+}
+.information h2 i {
+    margin: 0px 0px 0px 15px
+}
+.logo {
+    margin: 125px 0px 0px 0px; 
+}
+
+.information {
+ margin: 85px 0px 0px 0px;
+}
+.navBar {
+ margin: 0px 0px 100px 0px;
+}
+.navBar li:hover {
+    background: linear-gradient(45deg, rgb(46, 39, 97)25%, rgb(17, 12, 53)50%, rgb(35, 24, 121)100%);
+    color: rgb(12, 12, 12);
+    text-shadow: 2px 2px 2px white;
+}
+.information li a:hover {
+    color: rgb(46, 39, 97);
+}
