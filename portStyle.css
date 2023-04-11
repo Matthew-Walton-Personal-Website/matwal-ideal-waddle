@@ -103,7 +103,10 @@ figcaption {
  
 
 }
-
+.myProject li a:hover {
+    color: rgb(22, 15, 77);
+    
+}
     
 
 
